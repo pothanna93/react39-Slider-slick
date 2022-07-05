@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  padding: 40px;
+  justify-content: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 80px;
+  }
+}
+.heading {
+  font-size: 35px;
+  color: #05acff;
+  font-family: 'roboto';
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.2;
+}
